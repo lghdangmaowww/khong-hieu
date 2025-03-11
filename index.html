@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .title{
+            text-align: center;
+            margin-top: 200px;
+        }
+        .contain{
+            display: flex;
+        }
+        .contain .box{
+            width: 25%;
+            transition: 2s;
+            margin-right: 10px;
+            line-height: 50px;
+        }
+        .contain .image img{
+            width: 100%;
+            height: 600px;
+        }
+        .contain .details{
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(127deg,#FFBAFD,#829BFF,#87C0E6,#1D2930);
+        }
+        .contain .box:hover{
+            transform: translateY(10px);
+        }
+        .contain .box .name{
+            color: #F8F5FF;
+            font-size: 15px;
+        }
+        .contain .box .birthday{
+            color: #F8F5FF;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        .contain .box .role{
+            color: #F8F5FF;
+            font-size: 15px;
+        }
+        .contain .box .cart{
+            padding: 10px 20px;
+            color: #F8F5FF;
+            border: 1px solid #1D2930;
+            color: #273459;
+            background: linear-gradient(-50deg,#ED8E90,#EDA65A,#EDEB74);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>BTS WORLD</h1>
+    </div>
+    <div class="contain">
+        <div class="box">
+            <div class="image">
+                <img src="JIN.jpg" alt="mấy anh chồng Hàn Quốc">
+            </div>
+            <div class="details">
+                <h3 class="name">김석진-KIM SEOK JIN</h3>
+                <h2 class="birthday">04/12/1992</h2>
+                <p class="role">Vocal, Visual</p>
+                <button class="cart">VIEW DETAILS</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="JHOPE.jpg" alt="mấy anh chồng Hàn Quốc">
+            </div>
+            <div class="details">
+                <h3 class="name">정호석-JUNG HO SEOK J-HOPE</h3>
+                <h2 class="birthday">18/02/1994</h2>
+                <p class="role">Main Dancer, Rapper</p>
+                <button class="cart">VIEW DETAILS</button>
+            </div>
+        </div>    
+        <div class="box">
+            <div class="image">
+                <img src="JIMIN.jpg" alt="mấy anh chồng Hàn Quốc">
+            </div>  
+            <div class="details">
+                <h3 class="name">박지민-PARK JI MIN</h3>
+                <h2 class="birthday">13/10/1995</h2>
+                <p class="role">Lead Vocal, Lead Dancer</p>
+                <button class="cart">VIEW DETAILS</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="JK.jpg" alt="mấy anh chồng Hàn Quốc">
+            </div>
+            <div class="details">
+                <h3 class="name">전정국-JEON JUNG KOOK</h3>
+                <h2 class="birthday">01/09/1997</h2>
+                <p class="role">Vocal, Visual</p>
+                <button class="cart">VIEW DETAILS</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
